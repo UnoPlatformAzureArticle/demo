@@ -23,7 +23,7 @@ jobs:
         with:
           dotnet-version: '5.0.103'
       - run: |
-          cd src/demo.Wasm
+          cd demo/demo.Wasm
           dotnet build -c Release
       - name: Build And Deploy
         id: builddeploy
